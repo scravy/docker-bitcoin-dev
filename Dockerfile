@@ -13,7 +13,10 @@ RUN apt-get install -y -qq \
     python3 \
     htop \
     unzip \
+    netcat \
     net-tools \
+    iputils-ping \
+    iproute2 \
     libtool \
     autotools-dev \
     automake \

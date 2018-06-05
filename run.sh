@@ -1,4 +1,6 @@
 #!/bin/bash
 
-docker start -ai bitcoin-dev
+NAME=${1:-bitcoin-dev}
+
+docker start -ai ${NAME}
 
