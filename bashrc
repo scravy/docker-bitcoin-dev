@@ -3,7 +3,7 @@ case $- in
       *) return;;
 esac
 
-alias ls='ls -G'
+alias ls='ls --color'
 alias ll='ls -l'
 alias la='ls -A'
 alias lla='ls -lAh'
